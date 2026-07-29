@@ -14,8 +14,8 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/output/dist/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/output/dist/snake-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/1919-14/1919-14/blob/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/1919-14/1919-14/blob/output/snake-light.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/1919-14/1919-14/output/dist/snake-dark.svg" />
 </picture>
 
