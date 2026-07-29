@@ -16,14 +16,29 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
 
       - name: Generate SVG
         run: npm run generate
+
+      - name: Debug generated files
+        run: |
+          echo "=== assets ==="
+          ls -la assets || true
+          echo "=== git status ==="
+          git status --short
 
       - name: Commit
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add assets/
-          git commit -m "Generate radar widget" || exit 0
+          git add assets/radar-dark.svg assets/radar-light.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Generate radar widget"
           git push
