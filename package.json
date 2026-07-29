@@ -1,0 +1,9 @@
+{
+  "name": "github-radar",
+  "version": "1.0.0",
+  "description": "GitHub Activity Radar Generator",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/radar.js"
+  }
+}
