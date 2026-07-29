@@ -1,32 +1,120 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
-  <rect width="500" height="500" rx="20" fill="#0A101F"/>
-<text x="250" y="40" font-size="22" font-family="system-ui,-apple-system,sans-serif" font-weight="700" text-anchor="middle" fill="#E5E9F5">Activity Radar</text>
-  <circle cx="250" cy="250" r="42.5" stroke="#2B3245" stroke-width="1.5" fill="none"/>
-  <circle cx="250" cy="250" r="85" stroke="#2B3245" stroke-width="1.5" fill="none"/>
-  <circle cx="250" cy="250" r="127.5" stroke="#2B3245" stroke-width="1.5" fill="none"/>
-  <line x1="250" y1="250" x2="250" y2="80" stroke="#2B3245" stroke-width="1.5"/>
-  <line x1="250" y1="250" x2="397.2" y2="165" stroke="#2B3245" stroke-width="1.5"/>
-  <line x1="250" y1="250" x2="397.2" y2="335" stroke="#2B3245" stroke-width="1.5"/>
-  <line x1="250" y1="250" x2="250" y2="420" stroke="#2B3245" stroke-width="1.5"/>
-  <line x1="250" y1="250" x2="102.8" y2="335" stroke="#2B3245" stroke-width="1.5"/>
-  <line x1="250" y1="250" x2="102.8" y2="165" stroke="#2B3245" stroke-width="1.5"/>
-  <polygon points="250,234 296,223.4 397.2,335 250,332.7 195.9,281.2 214.2,229.3" fill="#7C3AED" fill-opacity="0.35" stroke="#7C3AED" stroke-width="3"/>
-  <circle cx="250" cy="234" r="5" fill="#7C3AED"/>
-  <circle cx="296" cy="223.4" r="5" fill="#7C3AED"/>
-  <circle cx="397.2" cy="335" r="5" fill="#7C3AED"/>
-  <circle cx="250" cy="332.7" r="5" fill="#7C3AED"/>
-  <circle cx="195.9" cy="281.2" r="5" fill="#7C3AED"/>
-  <circle cx="214.2" cy="229.3" r="5" fill="#7C3AED"/>
-<text x="250" y="58" dx="0" dy="-14" font-size="13" font-family="system-ui,-apple-system,sans-serif" font-weight="600" text-anchor="middle" fill="#E5E9F5">Reviews</text>
-<text x="416.3" y="154" dx="14" dy="4" font-size="13" font-family="system-ui,-apple-system,sans-serif" font-weight="600" text-anchor="start" fill="#E5E9F5">Issues</text>
-<text x="416.3" y="346" dx="14" dy="4" font-size="13" font-family="system-ui,-apple-system,sans-serif" font-weight="600" text-anchor="start" fill="#E5E9F5">Commits</text>
-<text x="250" y="442" dx="0" dy="18" font-size="13" font-family="system-ui,-apple-system,sans-serif" font-weight="600" text-anchor="middle" fill="#E5E9F5">Pull Requests</text>
-<text x="83.7" y="346" dx="-14" dy="4" font-size="13" font-family="system-ui,-apple-system,sans-serif" font-weight="600" text-anchor="end" fill="#E5E9F5">Repos</text>
-<text x="83.7" y="154" dx="-14" dy="4" font-size="13" font-family="system-ui,-apple-system,sans-serif" font-weight="600" text-anchor="end" fill="#E5E9F5">Stars</text>
-<text x="250" y="234" dx="0" dy="-8" font-size="11" font-family="system-ui,-apple-system,sans-serif" font-weight="500" text-anchor="middle" fill="#7C3AED">1</text>
-<text x="296" y="223.4" dx="10.4" dy="-2" font-size="11" font-family="system-ui,-apple-system,sans-serif" font-weight="500" text-anchor="middle" fill="#7C3AED">9</text>
-<text x="397.2" y="335" dx="10.4" dy="10" font-size="11" font-family="system-ui,-apple-system,sans-serif" font-weight="500" text-anchor="middle" fill="#7C3AED">1584</text>
-<text x="250" y="332.7" dx="0" dy="16" font-size="11" font-family="system-ui,-apple-system,sans-serif" font-weight="500" text-anchor="middle" fill="#7C3AED">35</text>
-<text x="195.9" y="281.2" dx="-10.4" dy="10" font-size="11" font-family="system-ui,-apple-system,sans-serif" font-weight="500" text-anchor="middle" fill="#7C3AED">14</text>
-<text x="214.2" y="229.3" dx="-10.4" dy="-2" font-size="11" font-family="system-ui,-apple-system,sans-serif" font-weight="500" text-anchor="middle" fill="#7C3AED">5</text>
+  <defs>
+    <linearGradient id="radarGrad_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="radarStroke_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="sweepGrad_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0.0"/>
+    </linearGradient>
+    <filter id="glow_dark" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .txt-mono { font-family: 'SF Mono', 'Fira Code', Consolas, monospace; }
+      .txt-sans { font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      @keyframes loopCycle {
+        0% { opacity: 0; transform: scale(0.95); }
+        0.8% { opacity: 1; transform: scale(1); }
+        99.58% { opacity: 1; transform: scale(1); }
+        100% { opacity: 0; transform: scale(0.95); }
+      }
+      @keyframes rotateBeam {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes nodePulse {
+        0%, 100% { r: 6px; opacity: 0.85; }
+        50% { r: 8.5px; opacity: 1; }
+      }
+      .animated-content {
+        animation: loopCycle 120.5s ease-in-out infinite;
+        transform-origin: 250px 265px;
+      }
+      .radar-beam {
+        animation: rotateBeam 6s linear infinite;
+        transform-origin: 250px 265px;
+      }
+      .node-point {
+        animation: nodePulse 2.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  <rect width="500" height="500" rx="16" fill="#0A101F" stroke="#1F293D" stroke-width="1.5"/>
+  <rect width="500" height="34" rx="16" fill="#131A2C"/>
+  <rect y="18" width="500" height="16" fill="#131A2C"/>
+  <line x1="0" y1="34" x2="500" y2="34" stroke="#1F293D" stroke-width="1"/>
+  <circle cx="20" cy="17" r="5" fill="#FF5F56"/>
+  <circle cx="36" cy="17" r="5" fill="#FFBD2E"/>
+  <circle cx="52" cy="17" r="5" fill="#27C93F"/>
+  <text x="250" y="21" class="txt-mono" text-anchor="middle" font-size="12" fill="#7C8BA8">activity-radar.sh</text>
+  <circle cx="438" cy="17" r="4" fill="#10B981">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="448" y="21" class="txt-mono" font-size="11" font-weight="700" fill="#10B981">LIVE</text>
+  <g class="animated-content">
+    <text x="250" y="62" class="txt-sans" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="1.5" fill="#E5E9F5">ACTIVITY RADAR</text>
+    <g class="radar-beam" opacity="0.35">
+      <path d="M 250 265 L 250 130 A 135 135 0 0 1 366.9 197.5 Z" fill="url(#sweepGrad_dark)"/>
+    </g>
+    <polygon points="250,231.3 279.2,248.1 279.2,281.9 250,298.8 220.8,281.9 220.8,248.1" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3"/>
+    <polygon points="250,197.5 308.5,231.3 308.5,298.8 250,332.5 191.5,298.8 191.5,231.3" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3"/>
+    <polygon points="250,163.8 337.7,214.4 337.7,315.6 250,366.3 162.3,315.6 162.3,214.4" fill="none" stroke="#1E293B" stroke-width="1" stroke-dasharray="3,3"/>
+    <polygon points="250,130 366.9,197.5 366.9,332.5 250,400 133.1,332.5 133.1,197.5" fill="none" stroke="#2B3245" stroke-width="1.5" />
+    <line x1="250" y1="265" x2="250" y2="130" stroke="#2B3245" stroke-width="1.2"/>
+    <line x1="250" y1="265" x2="366.9" y2="197.5" stroke="#2B3245" stroke-width="1.2"/>
+    <line x1="250" y1="265" x2="366.9" y2="332.5" stroke="#2B3245" stroke-width="1.2"/>
+    <line x1="250" y1="265" x2="250" y2="400" stroke="#2B3245" stroke-width="1.2"/>
+    <line x1="250" y1="265" x2="133.1" y2="332.5" stroke="#2B3245" stroke-width="1.2"/>
+    <line x1="250" y1="265" x2="133.1" y2="197.5" stroke="#2B3245" stroke-width="1.2"/>
+    <polygon points="250,248.8 286.5,243.9 366.9,332.5 250,330.6 207,289.8 221.6,248.6" fill="url(#radarGrad_dark)" stroke="url(#radarStroke_dark)" stroke-width="2.5" filter="url(#glow_dark)"/>
+    <circle class="node-point" cx="250" cy="248.8" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="250" cy="248.8" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="286.5" cy="243.9" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="286.5" cy="243.9" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="366.9" cy="332.5" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="366.9" cy="332.5" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="250" cy="330.6" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="250" cy="330.6" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="207" cy="289.8" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="207" cy="289.8" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="221.6" cy="248.6" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="221.6" cy="248.6" r="3" fill="#FFFFFF"/>
+    <g transform="translate(250, 106)">
+      <rect x="-55" y="-12" width="110" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="0" y="4" class="txt-sans" font-size="11" font-weight="600" text-anchor="middle" fill="#E5E9F5">💬 Reviews: <tspan font-weight="700" fill="#10B981">1</tspan></text>
+    </g>
+    <g transform="translate(388.9, 191.5)">
+      <rect x="0" y="-12" width="115" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="10" y="4" class="txt-sans" font-size="11" font-weight="600" fill="#E5E9F5">🎯 Issues: <tspan font-weight="700" fill="#10B981">9</tspan></text>
+    </g>
+    <g transform="translate(388.9, 346.5)">
+      <rect x="0" y="-12" width="115" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="10" y="4" class="txt-sans" font-size="11" font-weight="600" fill="#E5E9F5">⚡ Commits: <tspan font-weight="700" fill="#10B981">1.6k</tspan></text>
+    </g>
+    <g transform="translate(250, 434)">
+      <rect x="-55" y="-12" width="110" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="0" y="4" class="txt-sans" font-size="11" font-weight="600" text-anchor="middle" fill="#E5E9F5">🔀 Pull Requests: <tspan font-weight="700" fill="#10B981">35</tspan></text>
+    </g>
+    <g transform="translate(111.1, 346.5)">
+      <rect x="-115" y="-12" width="115" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="-10" y="4" class="txt-sans" font-size="11" font-weight="600" text-anchor="end" fill="#E5E9F5">📦 Repos: <tspan font-weight="700" fill="#10B981">14</tspan></text>
+    </g>
+    <g transform="translate(111.1, 191.5)">
+      <rect x="-115" y="-12" width="115" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
+      <text x="-10" y="4" class="txt-sans" font-size="11" font-weight="600" text-anchor="end" fill="#E5E9F5">⭐ Stars: <tspan font-weight="700" fill="#10B981">5</tspan></text>
+    </g>
+    <rect x="120" y="462" width="260" height="24" rx="12" fill="#131A2C" stroke="#1F293D" stroke-width="1"/>
+    <text x="250" y="478" class="txt-mono" font-size="11" font-weight="600" text-anchor="middle" fill="#7C8BA8">TOTAL METRICS: <tspan font-weight="700" fill="#7C3AED">1.6k</tspan></text>
+  </g>
 </svg>
