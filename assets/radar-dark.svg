@@ -1,0 +1,78 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="500"
+     height="500"
+     viewBox="0 0 500 500">
+
+<rect width="500" height="500"
+      rx="20"
+      fill="#0A101F" />
+
+<text
+x="250"
+y="45"
+font-size="26"
+font-family="Segoe UI"
+font-weight="bold"
+text-anchor="middle"
+fill="#E5E9F5">
+Developer Activity Radar
+</text>
+
+<circle
+cx="250"
+cy="250"
+r="170"
+stroke="#2B3245"
+stroke-width="2"
+fill="none"/>
+
+<circle
+cx="250"
+cy="250"
+r="120"
+stroke="#2B3245"
+stroke-width="2"
+fill="none"/>
+
+<circle
+cx="250"
+cy="250"
+r="70"
+stroke="#2B3245"
+stroke-width="2"
+fill="none"/>
+
+<line
+x1="250"
+y1="80"
+x2="250"
+y2="420"
+stroke="#2B3245"/>
+
+<line
+x1="80"
+y1="250"
+x2="420"
+y2="250"
+stroke="#2B3245"/>
+
+<polygon
+points="
+250,120
+350,180
+330,320
+170,320
+150,180"
+fill="#7C3AED"
+fill-opacity="0.35"
+stroke="#7C3AED"
+stroke-width="4"/>
+
+<circle
+cx="250"
+cy="250"
+r="6"
+fill="#7C3AED"/>
+
+</svg>
