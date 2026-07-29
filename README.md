@@ -9,6 +9,12 @@
 <img src="https://github-readme-stats-roan-pi-41.vercel.app/api?username=1919-14&show_icons=true&hide_rank=true&theme=transparent&title_color=7C3AED&icon_color=10B981&text_color=E5E9F5" width="49%" />
 <img src="https://github-readme-stats-roan-pi-41.vercel.app/api/top-langs/?username=1919-14&layout=compact&hide_rank=true&theme=transparent&title_color=7C3AED&text_color=E5E9F5" width="49%" />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/main/assets/radar-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/main/assets/radar-light.svg" />
+  <img alt="activity radar" src="https://raw.githubusercontent.com/1919-14/1919-14/main/assets/radar-light.svg" width="100%" />
+</picture>
+
 <img src="./profile/streak.svg" width="100%" />
 
 <br/>
