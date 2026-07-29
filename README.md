@@ -1,16 +1,24 @@
-## Hi there 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/main/assets/dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/main/assets/light.svg" />
+  <img alt="V S S K Sai Narayana banner" src="https://raw.githubusercontent.com/1919-14/1919-14/main/assets/dark.svg" />
+</picture>
 
-<!--
-**1919-14/1919-14** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br/>
 
-Here are some ideas to get you started:
+<img src="https://github-readme-stats-roan-pi-41.vercel.app/api?username=1919-14&show_icons=true&hide_rank=true&theme=transparent&title_color=7C3AED&icon_color=10B981&text_color=E5E9F5" width="49%" />
+<img src="https://github-readme-stats-roan-pi-41.vercel.app/api/top-langs/?username=1919-14&layout=compact&hide_rank=true&theme=transparent&title_color=7C3AED&text_color=E5E9F5" width="49%" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<img src="https://streak-stats.demolab.com/?user=1919-14&theme=dark&background=0A101F&ring=7C3AED&fire=10B981&currStreakLabel=E5E9F5" width="100%" />
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/output/dist/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/1919-14/1919-14/output/dist/snake-light.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/1919-14/1919-14/output/dist/snake-dark.svg" />
+</picture>
+
+<br/><br/>
+
+<a href="https://www.linkedin.com/in/vssk-sai-narayana/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;<a href="https://www.instagram.com/i_am_sai_the_ruler/"><img src="https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=E4405F" /></a>&nbsp;&nbsp;<a href="mailto:vssksn1919@gmail.com"><img src="https://img.shields.io/badge/Gmail-0A101F?style=for-the-badge&logo=gmail&logoColor=EA4335" /></a>
