@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: "0 3 * * *" # Runs daily
   workflow_dispatch: # Allows manual trigger
+
+# Add this block to give the GITHUB_TOKEN write access
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
