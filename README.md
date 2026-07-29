@@ -9,7 +9,7 @@
 <img src="https://github-readme-stats-roan-pi-41.vercel.app/api?username=1919-14&show_icons=true&hide_rank=true&theme=transparent&title_color=7C3AED&icon_color=10B981&text_color=E5E9F5" width="49%" />
 <img src="https://github-readme-stats-roan-pi-41.vercel.app/api/top-langs/?username=1919-14&layout=compact&hide_rank=true&theme=transparent&title_color=7C3AED&text_color=E5E9F5" width="49%" />
 
-<img src="https://streak-stats.demolab.com/?user=1919-14&theme=dark&background=0A101F&ring=7C3AED&fire=10B981&currStreakLabel=E5E9F5" width="100%" />
+<img src="./profile/streak.svg" width="100%" />
 
 <br/>
 
