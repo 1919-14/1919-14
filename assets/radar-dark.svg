@@ -77,7 +77,7 @@
     <line x1="250" y1="265" x2="250" y2="400" stroke="#2B3245" stroke-width="1.2"/>
     <line x1="250" y1="265" x2="133.1" y2="332.5" stroke="#2B3245" stroke-width="1.2"/>
     <line x1="250" y1="265" x2="133.1" y2="197.5" stroke="#2B3245" stroke-width="1.2"/>
-    <polygon points="250,248.8 286.2,244.1 366.9,332.5 250,330.6 204.5,291.3 221.8,248.7" fill="url(#radarGrad_dark)" stroke="url(#radarStroke_dark)" stroke-width="2.5" filter="url(#glow_dark)"/>
+    <polygon points="250,248.8 286.2,244.1 366.9,332.5 250,330.6 203.7,291.7 221.8,248.7" fill="url(#radarGrad_dark)" stroke="url(#radarStroke_dark)" stroke-width="2.5" filter="url(#glow_dark)"/>
     <circle class="node-point" cx="250" cy="248.8" r="6" fill="#10B981" opacity="0.85"/>
     <circle cx="250" cy="248.8" r="3" fill="#FFFFFF"/>
     <circle class="node-point" cx="286.2" cy="244.1" r="6" fill="#10B981" opacity="0.85"/>
@@ -86,8 +86,8 @@
     <circle cx="366.9" cy="332.5" r="3" fill="#FFFFFF"/>
     <circle class="node-point" cx="250" cy="330.6" r="6" fill="#10B981" opacity="0.85"/>
     <circle cx="250" cy="330.6" r="3" fill="#FFFFFF"/>
-    <circle class="node-point" cx="204.5" cy="291.3" r="6" fill="#10B981" opacity="0.85"/>
-    <circle cx="204.5" cy="291.3" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="203.7" cy="291.7" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="203.7" cy="291.7" r="3" fill="#FFFFFF"/>
     <circle class="node-point" cx="221.8" cy="248.7" r="6" fill="#10B981" opacity="0.85"/>
     <circle cx="221.8" cy="248.7" r="3" fill="#FFFFFF"/>
     <g transform="translate(250, 106)">
@@ -108,7 +108,7 @@
     </g>
     <g transform="translate(111.1, 346.5)">
       <rect x="-115" y="-12" width="115" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
-      <text x="-10" y="4" class="txt-sans" font-size="11" font-weight="600" text-anchor="end" fill="#E5E9F5">📦 Repos: <tspan font-weight="700" fill="#10B981">17</tspan></text>
+      <text x="-10" y="4" class="txt-sans" font-size="11" font-weight="600" text-anchor="end" fill="#E5E9F5">📦 Repos: <tspan font-weight="700" fill="#10B981">18</tspan></text>
     </g>
     <g transform="translate(111.1, 191.5)">
       <rect x="-115" y="-12" width="115" height="24" rx="12" fill="#131A2C" stroke="#2B3245" stroke-width="1"/>
