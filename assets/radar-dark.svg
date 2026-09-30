@@ -77,17 +77,17 @@
     <line x1="250" y1="265" x2="250" y2="400" stroke="#2B3245" stroke-width="1.2"/>
     <line x1="250" y1="265" x2="133.1" y2="332.5" stroke="#2B3245" stroke-width="1.2"/>
     <line x1="250" y1="265" x2="133.1" y2="197.5" stroke="#2B3245" stroke-width="1.2"/>
-    <polygon points="250,248.8 286,244.2 366.9,332.5 250,330.3 200.9,293.3 214,244.2" fill="url(#radarGrad_dark)" stroke="url(#radarStroke_dark)" stroke-width="2.5" filter="url(#glow_dark)"/>
+    <polygon points="250,248.8 286,244.2 366.9,332.5 250,330.2 201,293.3 214,244.2" fill="url(#radarGrad_dark)" stroke="url(#radarStroke_dark)" stroke-width="2.5" filter="url(#glow_dark)"/>
     <circle class="node-point" cx="250" cy="248.8" r="6" fill="#10B981" opacity="0.85"/>
     <circle cx="250" cy="248.8" r="3" fill="#FFFFFF"/>
     <circle class="node-point" cx="286" cy="244.2" r="6" fill="#10B981" opacity="0.85"/>
     <circle cx="286" cy="244.2" r="3" fill="#FFFFFF"/>
     <circle class="node-point" cx="366.9" cy="332.5" r="6" fill="#10B981" opacity="0.85"/>
     <circle cx="366.9" cy="332.5" r="3" fill="#FFFFFF"/>
-    <circle class="node-point" cx="250" cy="330.3" r="6" fill="#10B981" opacity="0.85"/>
-    <circle cx="250" cy="330.3" r="3" fill="#FFFFFF"/>
-    <circle class="node-point" cx="200.9" cy="293.3" r="6" fill="#10B981" opacity="0.85"/>
-    <circle cx="200.9" cy="293.3" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="250" cy="330.2" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="250" cy="330.2" r="3" fill="#FFFFFF"/>
+    <circle class="node-point" cx="201" cy="293.3" r="6" fill="#10B981" opacity="0.85"/>
+    <circle cx="201" cy="293.3" r="3" fill="#FFFFFF"/>
     <circle class="node-point" cx="214" cy="244.2" r="6" fill="#10B981" opacity="0.85"/>
     <circle cx="214" cy="244.2" r="3" fill="#FFFFFF"/>
     <g transform="translate(250, 106)">
